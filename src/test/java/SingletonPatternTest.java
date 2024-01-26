@@ -1,23 +1,23 @@
-import SingletonPattern.Car;
+import SingletonPattern.Pizza;
 
 public class SingletonPatternTest {
     public static void main(String[] args) {
         // Instantiating Singleton class with variable x
-        Car x = Car.getInstance();
+        Pizza x = Pizza.getInstance();
 
         // Instantiating Singleton class with variable y
-        Car y = Car.getInstance();
+        Pizza y = Pizza.getInstance();
 
         // Instantiating Singleton class with variable z
-        Car z = Car.getInstance();
+        Pizza z = Pizza.getInstance();
 
-        x.brand = x.brand.toUpperCase();
+        x.type = "Farmhouse Pizza";
 
         // Printing the hash code for above variable as
         // declared
-        System.out.println("Brand of car X is " + x.brand + ". Hashcode of x is " + x.hashCode());
-        System.out.println("Brand of car X is " + y.brand + ". Hashcode of x is " + y.hashCode());
-        System.out.println("Brand of car X is " + z.brand + ". Hashcode of x is " + z.hashCode());
+        System.out.println("Brand of car X is " + x.type + ". Hashcode of x is " + x.hashCode());
+        System.out.println("Brand of car X is " + y.type + ". Hashcode of x is " + y.hashCode());
+        System.out.println("Brand of car X is " + z.type + ". Hashcode of x is " + z.hashCode());
 
         // Condition check
         if (x == y && y == z) {
