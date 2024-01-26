@@ -5,43 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="795508ef-9e5d-4e95-b681-3c96f4f71d3e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AdapterPattern/Socket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AdapterPattern/SocketAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AdapterPattern/SocketClassAdapterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AdapterPattern/SocketObjectAdapterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AdapterPattern/Volt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DecoratorPattern/BasicCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DecoratorPattern/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DecoratorPattern/CarDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DecoratorPattern/LuxuryCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DecoratorPattern/SportsCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/MyTopic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/MyTopicSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AdapterPatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DecoratorPatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObserverPatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/AdapterPattern/Socket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/AdapterPattern/SocketAdapter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/AdapterPattern/SocketClassAdapterImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/AdapterPattern/SocketObjectAdapterImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/AdapterPattern/Volt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DecoratorPattern/BasicCar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DecoratorPattern/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DecoratorPattern/CarDecorator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DecoratorPattern/LuxuryCar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DecoratorPattern/SportsCar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/AdapterPatternTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/DecoratorPatternTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SingletonPattern/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SingletonPattern/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SingletonPatternTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SingletonPatternTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SingletonPattern/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SingletonPattern/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SingletonPatternTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SingletonPatternTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AdapterPattern/SocketClassAdapterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AdapterPattern/SocketClassAdapterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AdapterPattern/SocketObjectAdapterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AdapterPattern/SocketObjectAdapterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AdapterPattern/SocketObjectAdapterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AdapterPattern/SocketObjectAdapterImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,9 +51,16 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ObserverPatternTest">
+  <component name="RunManager" selected="Application.ChainOfResponsibilityPatternTest">
     <configuration name="AdapterPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AdapterPatternTest" />
+      <module name="Design-Pattern" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChainOfResponsibilityPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChainOfResponsibilityPatternTest" />
       <module name="Design-Pattern" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,13 +73,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FactoryPatternTest" />
-      <module name="Design-Pattern" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ObserverPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ObserverPatternTest" />
       <module name="Design-Pattern" />
@@ -113,10 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="SingletonPatternTest" />
+    <configuration name="StrategyPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StrategyPatternTest" />
       <module name="Design-Pattern" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChainOfResponsibilityPatternTest" />
+        <item itemvalue="Application.StrategyPatternTest" />
         <item itemvalue="Application.ObserverPatternTest" />
         <item itemvalue="Application.AdapterPatternTest" />
         <item itemvalue="Application.DecoratorPatternTest" />
-        <item itemvalue="Application.SingletonPatternTest" />
-        <item itemvalue="Application.FactoryPatternTest" />
       </list>
     </recent_temporary>
   </component>

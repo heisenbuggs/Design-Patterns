@@ -1,8 +1,7 @@
 package AdapterPattern;
 
+// Using Composition for adapter pattern
 public class SocketObjectAdapterImpl implements SocketAdapter {
-
-    //Using Composition for adapter pattern
     private Socket sock = new Socket();
 
     @Override

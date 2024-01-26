@@ -1,6 +1,6 @@
 package AdapterPattern;
 
-//Using inheritance for adapter pattern
+// Using inheritance for adapter pattern
 public class SocketClassAdapterImpl extends Socket implements SocketAdapter {
 
     @Override
