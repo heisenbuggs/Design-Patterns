@@ -27,5 +27,11 @@ public class ObserverPatternTest {
 
         // Now send message to subject
         subject.postMessage("The subject is updated");
+
+        // Unsubscribe the user
+        subject.unregister(obj2);
+
+        // Notify again to the registered observers
+        subject.postMessage("The subject is updated");
     }
 }

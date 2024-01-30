@@ -52,9 +52,9 @@ public class SubjectImpl implements Subject {
     }
 
     // Method to post message to the topic
-    public void postMessage(String msg) {
-        System.out.println("Message Posted to Topic : " + msg);
-        this.message = msg;
+    public void postMessage(String message) {
+        System.out.println("Message Posted to Topic : " + message);
+        this.message = message;
         this.changed = true;
         notifyObservers();
     }

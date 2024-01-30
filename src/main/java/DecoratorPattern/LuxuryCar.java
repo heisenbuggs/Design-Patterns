@@ -2,8 +2,8 @@ package DecoratorPattern;
 
 public class LuxuryCar extends CarDecorator {
 
-    public LuxuryCar(Car c) {
-        super(c);
+    public LuxuryCar(Car car) {
+        super(car);
     }
 
     @Override
