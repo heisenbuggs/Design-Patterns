@@ -4,12 +4,13 @@ public interface Subject {
 
     // Methods to register and unregister observers
     public void register(Observer obj);
+
     public void unregister(Observer obj);
 
-    //method to notify observers of change
+    // Method to notify observers of change
     public void notifyObservers();
 
-    //method to get updates from subject
+    // Method to get updates from subject
     public Object getUpdate(Observer obj);
 
 }

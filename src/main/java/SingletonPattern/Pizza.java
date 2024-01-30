@@ -15,8 +15,7 @@ public class Pizza {
     }
 
     // Static method to create instance of Singleton class
-    public static synchronized Pizza getInstance()
-    {
+    public static synchronized Pizza getInstance() {
         if (single_instance == null) {
             single_instance = new Pizza();
         }

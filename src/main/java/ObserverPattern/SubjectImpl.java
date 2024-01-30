@@ -3,28 +3,29 @@ package ObserverPattern;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyTopic implements Subject {
+public class SubjectImpl implements Subject {
 
-    private List<Observer> observers;
+    private List<Observer> observerList;
     private String message;
     private boolean changed;
     private final Object MUTEX = new Object();
 
-    public MyTopic() {
-        this.observers=new ArrayList<>();
+    public SubjectImpl() {
+        this.observerList = new ArrayList<>();
     }
+
     @Override
     public void register(Observer obj) {
         if (obj == null) throw new NullPointerException("Null Observer");
         synchronized (MUTEX) {
-            if (!observers.contains(obj)) observers.add(obj);
+            if (!observerList.contains(obj)) observerList.add(obj);
         }
     }
 
     @Override
     public void unregister(Observer obj) {
         synchronized (MUTEX) {
-            observers.remove(obj);
+            observerList.remove(obj);
         }
     }
 
@@ -36,7 +37,7 @@ public class MyTopic implements Subject {
         synchronized (MUTEX) {
             if (!changed)
                 return;
-            observersLocal = new ArrayList<>(this.observers);
+            observersLocal = new ArrayList<>(this.observerList);
             this.changed=false;
         }
         for (Observer obj : observersLocal) {
@@ -51,7 +52,7 @@ public class MyTopic implements Subject {
     }
 
     // Method to post message to the topic
-    public void postMessage(String msg){
+    public void postMessage(String msg) {
         System.out.println("Message Posted to Topic : " + msg);
         this.message = msg;
         this.changed = true;

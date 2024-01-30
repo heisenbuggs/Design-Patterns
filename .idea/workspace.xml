@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="795508ef-9e5d-4e95-b681-3c96f4f71d3e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BuilderPattern/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BuilderPattern/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryPattern/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern/Laptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryPattern/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ObserverPattern/MyTopic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/SubjectImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ObserverPattern/MyTopicSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/ObserverSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ObserverPattern/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ObserverPattern/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SingletonPattern/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SingletonPattern/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ObserverPatternTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObserverPatternTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +47,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Prasuk/Projects/Design-Pattern&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AbstractFactoryPatternTest.executor": "Run",
+    "Application.ObserverPatternTest.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/Prasuk/Projects/Design-Pattern",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.AbstractFactoryPatternTest">
+}]]></component>
+  <component name="RunManager" selected="Application.ObserverPatternTest">
     <configuration name="AbstractFactoryPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractFactoryPatternTest" />
       <module name="Design-Pattern" />
@@ -99,13 +112,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObserverPatternTest" />
         <item itemvalue="Application.AbstractFactoryPatternTest" />
         <item itemvalue="Application.ChainOfResponsibilityPatternTest" />
         <item itemvalue="Application.StrategyPatternTest" />
-        <item itemvalue="Application.ObserverPatternTest" />
         <item itemvalue="Application.AdapterPatternTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-9b16c6e2" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -117,5 +137,16 @@
       <updated>1706263420408</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ObserverPattern/SubjectImpl.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
