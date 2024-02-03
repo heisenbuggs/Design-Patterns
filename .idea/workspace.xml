@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795508ef-9e5d-4e95-b681-3c96f4f71d3e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryPattern/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FactoryPattern/ComputerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FactoryPattern/ComputerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ObserverPattern/ObserverSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/ObserverImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ObserverPattern/SubjectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ObserverPattern/SubjectImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AbstractFactoryPatternTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AbstractFactoryPatternTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ObserverPatternTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObserverPatternTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SingletonPatternTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SingletonPatternTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SingletonPatternTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SingletonPatternTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="795508ef-9e5d-4e95-b681-3c96f4f71d3e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,16 +51,9 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ObserverPatternTest">
+  <component name="RunManager" selected="Application.StrategyPatternTest">
     <configuration name="AbstractFactoryPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractFactoryPatternTest" />
-      <module name="Design-Pattern" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChainOfResponsibilityPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChainOfResponsibilityPatternTest" />
       <module name="Design-Pattern" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,6 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StrategyPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StrategyPatternTest" />
+      <module name="Design-Pattern" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Design Pattern" />
       <method v="2">
@@ -112,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrategyPatternTest" />
         <item itemvalue="Application.ObserverPatternTest" />
         <item itemvalue="Application.SingletonPatternTest" />
         <item itemvalue="Application.DecoratorPatternTest" />
         <item itemvalue="Application.AbstractFactoryPatternTest" />
-        <item itemvalue="Application.ChainOfResponsibilityPatternTest" />
       </list>
     </recent_temporary>
   </component>

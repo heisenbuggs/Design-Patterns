@@ -5,18 +5,18 @@ import StrategyPattern.ShoppingCart;
 
 public class StrategyPatternTest {
     public static void main(String[] args) {
-        ShoppingCart cart = new ShoppingCart();
+        ShoppingCart shoppingCart = new ShoppingCart();
 
-        Item item1 = new Item("1234",10);
-        Item item2 = new Item("5678",40);
+        Item item1 = new Item("ITM040700",40);
+        Item item2 = new Item("ITM031000",70);
 
-        cart.addItem(item1);
-        cart.addItem(item2);
+        shoppingCart.addItem(item1);
+        shoppingCart.addItem(item2);
 
         // Pay by paypal
-        cart.pay(new PaypalStrategy("myemail@example.com", "mypwd"));
+        shoppingCart.pay(new PaypalStrategy("myemail@example.com", "mypwd"));
 
         // Pay by credit card
-        cart.pay(new CreditCardStrategy("Prasuk Jain", "1234567890123456", "786", "12/15"));
+        shoppingCart.pay(new CreditCardStrategy("Prasuk Jain", "1234567890123456", "786", "12/32"));
     }
 }
