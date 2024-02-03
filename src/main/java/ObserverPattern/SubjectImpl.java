@@ -15,17 +15,18 @@ public class SubjectImpl implements Subject {
     }
 
     @Override
-    public void register(Observer obj) {
-        if (obj == null) throw new NullPointerException("Null Observer");
+    public void register(Observer observer) {
+        if (observer == null) throw new NullPointerException("Null Observer.");
         synchronized (MUTEX) {
-            if (!observerList.contains(obj)) observerList.add(obj);
+            if (!observerList.contains(observer))
+                observerList.add(observer);
         }
     }
 
     @Override
-    public void unregister(Observer obj) {
+    public void unregister(Observer observer) {
         synchronized (MUTEX) {
-            observerList.remove(obj);
+            observerList.remove(observer);
         }
     }
 
@@ -38,16 +39,16 @@ public class SubjectImpl implements Subject {
             if (!changed)
                 return;
             observersLocal = new ArrayList<>(this.observerList);
-            this.changed=false;
+            this.changed = false;
         }
-        for (Observer obj : observersLocal) {
-            obj.update();
+        for (Observer observer : observersLocal) {
+            observer.update();
         }
 
     }
 
     @Override
-    public Object getUpdate(Observer obj) {
+    public Object getUpdate(Observer observer) {
         return this.message;
     }
 

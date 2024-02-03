@@ -15,9 +15,9 @@ public class SingletonPatternTest {
 
         // Printing the hash code for above variable as
         // declared
-        System.out.println("Brand of car X is " + x.type + ". Hashcode of x is " + x.hashCode());
-        System.out.println("Brand of car X is " + y.type + ". Hashcode of x is " + y.hashCode());
-        System.out.println("Brand of car X is " + z.type + ". Hashcode of x is " + z.hashCode());
+        System.out.println("Type of pizza X is " + x.type + ". Hashcode of x is " + x.hashCode());
+        System.out.println("Type of pizza Y is " + y.type + ". Hashcode of y is " + y.hashCode());
+        System.out.println("Type of pizza Z is " + z.type + ". Hashcode of z is " + z.hashCode());
 
         // Condition check
         if (x == y && y == z) {

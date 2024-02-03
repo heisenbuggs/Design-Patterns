@@ -7,7 +7,7 @@ public abstract class Computer {
     public abstract String getCPU();
 
     @Override
-    public String toString(){
+    public String toString() {
         return "RAM = " + this.getRAM() + ", HDD = " + this.getHDD() + ", CPU = " + this.getCPU();
     }
 }

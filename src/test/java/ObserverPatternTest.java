@@ -1,5 +1,5 @@
 import ObserverPattern.SubjectImpl;
-import ObserverPattern.ObserverSubscriber;
+import ObserverPattern.ObserverImpl;
 import ObserverPattern.Observer;
 
 public class ObserverPatternTest {
@@ -8,28 +8,28 @@ public class ObserverPatternTest {
         SubjectImpl subject = new SubjectImpl();
 
         // Create observers
-        Observer obj1 = new ObserverSubscriber("Obj1");
-        Observer obj2 = new ObserverSubscriber("Obj2");
-        Observer obj3 = new ObserverSubscriber("Obj3");
+        Observer observer1 = new ObserverImpl("Observer1");
+        Observer observer2 = new ObserverImpl("Observer2");
+        Observer observer3 = new ObserverImpl("Observer3");
 
         // Register observers to the subject
-        subject.register(obj1);
-        subject.register(obj2);
-        subject.register(obj3);
+        subject.register(observer1);
+        subject.register(observer2);
+        subject.register(observer3);
 
         // Attach observer to subject
-        obj1.setSubject(subject);
-        obj2.setSubject(subject);
-        obj3.setSubject(subject);
+        observer1.setSubject(subject);
+        observer2.setSubject(subject);
+        observer3.setSubject(subject);
 
         // Check if any update is available
-        obj1.update();
+        observer1.update();
 
         // Now send message to subject
         subject.postMessage("The subject is updated");
 
         // Unsubscribe the user
-        subject.unregister(obj2);
+        subject.unregister(observer2);
 
         // Notify again to the registered observers
         subject.postMessage("The subject is updated");
