@@ -9,3 +9,4 @@
 - Singleton Pattern
 - Strategy Pattern
 - Chain of Responsibility Pattern
+- Visitor Pattern
