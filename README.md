@@ -10,3 +10,4 @@
 - Strategy Pattern
 - Chain of Responsibility Pattern
 - Visitor Pattern
+- State Design Pattern
