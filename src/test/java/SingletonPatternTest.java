@@ -11,13 +11,13 @@ public class SingletonPatternTest {
         // Instantiating Singleton class with variable z
         Pizza z = Pizza.getInstance();
 
-        x.type = "Farmhouse Pizza";
+        x.setType("Farmhouse Pizza");
 
         // Printing the hash code for above variable as
         // declared
-        System.out.println("Type of pizza X is " + x.type + ". Hashcode of x is " + x.hashCode());
-        System.out.println("Type of pizza Y is " + y.type + ". Hashcode of y is " + y.hashCode());
-        System.out.println("Type of pizza Z is " + z.type + ". Hashcode of z is " + z.hashCode());
+        System.out.println("Type of pizza X is " + x.getType() + ". Hashcode of x is " + x.hashCode());
+        System.out.println("Type of pizza Y is " + y.getType() + ". Hashcode of y is " + y.hashCode());
+        System.out.println("Type of pizza Z is " + z.getType() + ". Hashcode of z is " + z.hashCode());
 
         // Condition check
         if (x == y && y == z) {

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="795508ef-9e5d-4e95-b681-3c96f4f71d3e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StatePattern/TVState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StatePattern/TVState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SingletonPattern/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SingletonPattern/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FactoryPatternTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FactoryPatternTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SingletonPatternTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SingletonPatternTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +44,10 @@
   "keyToString": {
     "Application.AbstractFactoryPatternTest.executor": "Run",
     "Application.DecoratorPatternTest.executor": "Run",
+    "Application.FactoryPatternTest.executor": "Run",
     "Application.ObserverPatternTest.executor": "Run",
     "Application.SingletonPatternTest.executor": "Run",
+    "Application.StatePatternTest.executor": "Run",
     "Application.StrategyPatternTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -55,16 +59,16 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StatePatternTest">
-    <configuration name="DecoratorPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DecoratorPatternTest" />
+  <component name="RunManager" selected="Application.AbstractFactoryPatternTest">
+    <configuration name="AbstractFactoryPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AbstractFactoryPatternTest" />
       <module name="Design-Pattern" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObserverPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObserverPatternTest" />
+    <configuration name="FactoryPatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FactoryPatternTest" />
       <module name="Design-Pattern" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractFactoryPatternTest" />
+        <item itemvalue="Application.FactoryPatternTest" />
+        <item itemvalue="Application.SingletonPatternTest" />
         <item itemvalue="Application.StatePatternTest" />
         <item itemvalue="Application.StrategyPatternTest" />
-        <item itemvalue="Application.ObserverPatternTest" />
-        <item itemvalue="Application.SingletonPatternTest" />
-        <item itemvalue="Application.DecoratorPatternTest" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +143,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/DecoratorPatternTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/FactoryPatternTest.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FactoryPattern/ComputerFactory.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -5,7 +5,7 @@ public class Pizza {
     private static Pizza single_instance = null;
 
     // Declaring a variable of type String
-    public String type;
+    private String type;
 
     // Constructor
     // Here we will be creating private constructor
@@ -21,5 +21,13 @@ public class Pizza {
         }
 
         return single_instance;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public String getType() {
+        return type;
     }
 }
