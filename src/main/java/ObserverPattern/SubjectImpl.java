@@ -32,7 +32,7 @@ public class SubjectImpl implements Subject {
 
     @Override
     public void notifyObservers() {
-        List<Observer> observersLocal = null;
+        List<Observer> observersLocal;
         // Synchronization is used to make sure any observer registered
         // after message is received is not notified
         synchronized (MUTEX) {

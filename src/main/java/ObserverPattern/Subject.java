@@ -3,14 +3,14 @@ package ObserverPattern;
 public interface Subject {
 
     // Methods to register and unregister observers
-    public void register(Observer obj);
+    void register(Observer observer);
 
-    public void unregister(Observer obj);
+    void unregister(Observer observer);
 
     // Method to notify observers of change
-    public void notifyObservers();
+    void notifyObservers();
 
     // Method to get updates from subject
-    public Object getUpdate(Observer obj);
+    Object getUpdate(Observer observer);
 
 }

@@ -29,8 +29,8 @@ public class AdapterPatternTest {
         System.out.println("v120 volts using Object Adapter = " + v120.getVolts());
     }
 
-    private static Volt getVolt(SocketAdapter sockAdapter, int i) {
-        return switch (i) {
+    private static Volt getVolt(SocketAdapter sockAdapter, int num) {
+        return switch (num) {
             case 3 -> sockAdapter.get3Volt();
             case 12 -> sockAdapter.get12Volt();
             case 120 -> sockAdapter.get120Volt();
