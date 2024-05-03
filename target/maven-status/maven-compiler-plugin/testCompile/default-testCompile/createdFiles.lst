@@ -1,0 +1,11 @@
+DecoratorPatternTest.class
+StrategyPatternTest.class
+ChainOfResponsibilityPatternTest.class
+BuilderPattenTest.class
+StatePatternTest.class
+VisitorPatternTest.class
+ObserverPatternTest.class
+SingletonPatternTest.class
+AbstractFactoryPatternTest.class
+AdapterPatternTest.class
+FactoryPatternTest.class
