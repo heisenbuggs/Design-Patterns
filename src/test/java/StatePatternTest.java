@@ -13,6 +13,8 @@ public class StatePatternTest {
         context.setState(tvStartState);
         context.doAction();
 
+        System.out.println("------------");
+
         context.setState(tvStopState);
         context.doAction();
 
