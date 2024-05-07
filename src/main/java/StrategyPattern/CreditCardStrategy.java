@@ -7,7 +7,7 @@ public class CreditCardStrategy implements PaymentStrategy {
     private String cvv;
     private String expiryDate;
 
-    public CreditCardStrategy(String name, String creditCardNumber, String cvv, String expiryDate){
+    public CreditCardStrategy(String name, String creditCardNumber, String cvv, String expiryDate) {
         this.name = name;
         this.cardNumber = creditCardNumber;
         this.cvv = cvv;

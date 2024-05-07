@@ -6,17 +6,17 @@ public class FiftyRupeesDispenser implements DispenseChain {
 
     @Override
     public void setNextChain(DispenseChain nextChain) {
-        this.chain=nextChain;
+        this.chain = nextChain;
     }
 
     @Override
     public void dispense(Currency currency) {
-        if(currency.getAmount() >= 50){
-            int num = currency.getAmount()/50;
+        if (currency.getAmount() >= 50) {
+            int num = currency.getAmount() / 50;
             int remainder = currency.getAmount() % 50;
-            System.out.println("Dispensing "+num+" 50$ note");
-            if(remainder !=0) this.chain.dispense(new Currency(remainder));
-        }else{
+            System.out.println("Dispensing " + num + " 50$ note");
+            if (remainder != 0) this.chain.dispense(new Currency(remainder));
+        } else {
             this.chain.dispense(currency);
         }
     }

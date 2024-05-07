@@ -2,5 +2,5 @@ package StrategyPattern;
 
 public interface PaymentStrategy {
 
-    public void pay(int amount);
+    void pay(int amount);
 }

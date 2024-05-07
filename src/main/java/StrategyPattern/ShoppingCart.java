@@ -20,15 +20,15 @@ public class ShoppingCart {
         this.items.remove(item);
     }
 
-    public int calculateTotal(){
+    public int calculateTotal() {
         int sum = 0;
-        for(Item item : items){
+        for (Item item : items) {
             sum += item.getPrice();
         }
         return sum;
     }
 
-    public void pay(PaymentStrategy paymentMethod){
+    public void pay(PaymentStrategy paymentMethod) {
         int amount = calculateTotal();
         paymentMethod.pay(amount);
     }
