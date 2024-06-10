@@ -2,11 +2,11 @@ package ChainOfResponsibilityPattern;
 
 public class TenRupeesDispenser implements DispenseChain {
 
-    private DispenseChain chain;
+    private DispenseChain nextChain;
 
     @Override
     public void setNextChain(DispenseChain nextChain) {
-        this.chain = nextChain;
+        this.nextChain = nextChain;
     }
 
     @Override
@@ -15,9 +15,9 @@ public class TenRupeesDispenser implements DispenseChain {
             int num = currency.getAmount() / 10;
             int remainder = currency.getAmount() % 10;
             System.out.println("Dispensing " + num + " 10$ note");
-            if(remainder != 0) this.chain.dispense(new Currency(remainder));
+            if(remainder != 0) this.nextChain.dispense(new Currency(remainder));
         } else {
-            this.chain.dispense(currency);
+            this.nextChain.dispense(currency);
         }
     }
 
