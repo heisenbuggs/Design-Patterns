@@ -2,16 +2,16 @@ package StrategyPattern;
 
 public class Item {
 
-    private String upcCode;
+    private String id;
     private int price;
 
-    public Item(String upc, int cost){
-        this.upcCode=upc;
-        this.price=cost;
+    public Item(String id, int cost){
+        this.id = id;
+        this.price = cost;
     }
 
-    public String getUpcCode() {
-        return upcCode;
+    public String getId() {
+        return id;
     }
 
     public int getPrice() {

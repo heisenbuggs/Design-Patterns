@@ -13,7 +13,7 @@ public class StrategyPatternTest {
         shoppingCart.addItem(item1);
         shoppingCart.addItem(item2);
 
-        // Pay by paypal
+        // Pay by PayPal
         shoppingCart.pay(new PaypalStrategy("myemail@example.com", "mypwd"));
 
         // Pay by credit card
