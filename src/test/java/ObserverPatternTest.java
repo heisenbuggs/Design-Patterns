@@ -1,3 +1,4 @@
+import ObserverPattern.Subject;
 import ObserverPattern.SubjectImpl;
 import ObserverPattern.ObserverImpl;
 import ObserverPattern.Observer;
