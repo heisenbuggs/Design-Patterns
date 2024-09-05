@@ -27,4 +27,9 @@ public class Laptop extends Computer {
         return this.cpu;
     }
 
+    @Override
+    public String getGraphics() {
+        return "";
+    }
+
 }
