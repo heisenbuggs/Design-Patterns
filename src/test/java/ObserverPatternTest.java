@@ -1,12 +1,12 @@
+import ObserverPattern.Observer;
+import ObserverPattern.ObserverImpl;
 import ObserverPattern.Subject;
 import ObserverPattern.SubjectImpl;
-import ObserverPattern.ObserverImpl;
-import ObserverPattern.Observer;
 
 public class ObserverPatternTest {
     public static void main(String[] args) {
         // Create subject
-        SubjectImpl subject = new SubjectImpl();
+        Subject subject = new SubjectImpl();
 
         // Create observers
         Observer observer1 = new ObserverImpl("Observer1");
@@ -23,8 +23,8 @@ public class ObserverPatternTest {
         observer2.setSubject(subject);
         observer3.setSubject(subject);
 
-        // Check if any update is available
-        observer1.update();
+        // Check if any askUpdate is available
+        observer1.askUpdate();
 
         // Now send message to subject
         subject.postMessage("The subject is updated");

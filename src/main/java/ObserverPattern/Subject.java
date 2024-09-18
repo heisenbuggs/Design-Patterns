@@ -13,4 +13,7 @@ public interface Subject {
     // Method to get updates from subject
     Object getUpdate(Observer observer);
 
+    // Method to post message to the topic
+    void postMessage(String message);
+
 }

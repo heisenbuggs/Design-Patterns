@@ -1,6 +1,6 @@
 import StrategyPattern.CreditCardStrategy;
 import StrategyPattern.Item;
-import StrategyPattern.PaypalStrategy;
+import StrategyPattern.PhonePeUPIStrategy;
 import StrategyPattern.ShoppingCart;
 
 public class StrategyPatternTest {
@@ -14,7 +14,7 @@ public class StrategyPatternTest {
         shoppingCart.addItem(item2);
 
         // Pay by PayPal
-        shoppingCart.pay(new PaypalStrategy("myemail@example.com", "mypwd"));
+        shoppingCart.pay(new PhonePeUPIStrategy("myemail@example.com", "mypwd"));
 
         // Pay by credit card
         shoppingCart.pay(new CreditCardStrategy("Prasuk Jain", "1234567890123456", "786", "12/32"));

@@ -42,7 +42,7 @@ public class SubjectImpl implements Subject {
             this.changed = false;
         }
         for (Observer observer : observersLocal) {
-            observer.update();
+            observer.askUpdate();
         }
 
     }
@@ -52,7 +52,7 @@ public class SubjectImpl implements Subject {
         return this.message;
     }
 
-    // Method to post message to the topic
+    @Override
     public void postMessage(String message) {
         System.out.println("Message Posted to Topic : " + message);
         this.message = message;

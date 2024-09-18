@@ -15,7 +15,7 @@ public class ObserverImpl implements Observer {
     }
 
     @Override
-    public void update() {
+    public void askUpdate() {
         String message = (String) subject.getUpdate(this);
         if (message == null) {
             System.out.println(name + " :: No new message");
