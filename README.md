@@ -1,13 +1,13 @@
 # Design-Patterns
 
-- Adapter Pattern
-- Builder Pattern
-- Factory Pattern
-- Abstract Factory Pattern
-- Decorator Pattern
-- Observer Pattern
 - Singleton Pattern
+- Builder Pattern
+- Factory Pattern 
+- Abstract Factory Pattern
+- Observer Pattern
 - Strategy Pattern
 - Chain of Responsibility Pattern
+- State Pattern
 - Visitor Pattern
-- State Design Pattern
+- Decorator Pattern
+- Adapter Pattern
