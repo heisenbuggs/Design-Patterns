@@ -1,6 +1,6 @@
 package SingletonPattern;
 
-// Static variable reference of single instance of type Singleton
+// Static variable reference of single instance of type Animal
 public class Pizza {
     private static Pizza single_instance = null;
 
@@ -14,7 +14,7 @@ public class Pizza {
         type = "Veggie Delight Pizza";
     }
 
-    // Static method to create instance of Singleton class
+    // Static method to create instance of Animal class
     public static synchronized Pizza getInstance() {
         if (single_instance == null) {
             single_instance = new Pizza();

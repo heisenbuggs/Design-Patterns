@@ -2,13 +2,13 @@ import SingletonPattern.Pizza;
 
 public class SingletonPatternTest {
     public static void main(String[] args) {
-        // Instantiating Singleton class with variable x
+        // Instantiating Animal class with variable x
         Pizza x = Pizza.getInstance();
 
-        // Instantiating Singleton class with variable y
+        // Instantiating Animal class with variable y
         Pizza y = Pizza.getInstance();
 
-        // Instantiating Singleton class with variable z
+        // Instantiating Animal class with variable z
         Pizza z = Pizza.getInstance();
 
         x.setType("Farmhouse Pizza");

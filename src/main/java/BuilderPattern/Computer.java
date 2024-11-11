@@ -44,7 +44,7 @@ public class Computer {
                 '}';
     }
 
-    // Builder Class
+    // Static Builder Class
     public static class ComputerBuilder {
         // Required parameters
         private String HDD;
