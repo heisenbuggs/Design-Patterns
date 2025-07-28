@@ -13,10 +13,12 @@ public class StrategyPatternTest {
         shoppingCart.addItem(item1);
         shoppingCart.addItem(item2);
 
-        // Pay by PayPal
+        // --- Apply different payment strategies ---
+
+        // Pay by PhonePe UPI
         shoppingCart.pay(new PhonePeUPIStrategy("myemail@example.com", "mypwd"));
 
         // Pay by credit card
-        shoppingCart.pay(new CreditCardStrategy("Prasuk Jain", "1234567890123456", "786", "12/32"));
+        shoppingCart.pay(new CreditCardStrategy("Prasuk Jain", "123456789", "786", "12/32"));
     }
 }

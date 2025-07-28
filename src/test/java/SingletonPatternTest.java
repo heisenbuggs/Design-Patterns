@@ -1,34 +1,29 @@
-import SingletonPattern.Pizza;
+import SingletonPattern.DatabaseConnection;
 
 public class SingletonPatternTest {
     public static void main(String[] args) {
-        // Instantiating Animal class with variable x
-        Pizza x = Pizza.getInstance();
 
-        // Instantiating Animal class with variable y
-        Pizza y = Pizza.getInstance();
+        // Get the singleton instance
+        DatabaseConnection db1 = DatabaseConnection.getInstance();
+        db1.connect("jdbc:mysql://localhost:3306/products", "admin", 45);
 
-        // Instantiating Animal class with variable z
-        Pizza z = Pizza.getInstance();
+        // Get another reference to the singleton
+        DatabaseConnection db2 = DatabaseConnection.getInstance();
 
-        x.setType("Farmhouse Pizza");
+        // Check values from second reference
+        System.out.println("DB2 Connection URL: " + db2.getConnectionURL());
+        System.out.println("DB2 Username: " + db2.getUsername());
+        System.out.println("DB2 Is Connected: " + db2.isConnected());
+        System.out.println("DB2 Timeout: " + db2.getTimeout());
 
-        // Printing the hash code for above variable as
-        // declared
-        System.out.println("Type of pizza X is " + x.getType() + ". Hashcode of x is " + x.hashCode());
-        System.out.println("Type of pizza Y is " + y.getType() + ". Hashcode of y is " + y.hashCode());
-        System.out.println("Type of pizza Z is " + z.getType() + ". Hashcode of z is " + z.hashCode());
+        // Print hash codes to verify both are same instance
+        System.out.println("HashCode of db1: " + db1.hashCode());
+        System.out.println("HashCode of db2: " + db2.hashCode());
 
-        // Condition check
-        if (x == y && y == z) {
-            // Print statement
-            System.out.println("Three objects point to the same memory location on the heap i.e, to the same object");
+        if (db1 == db2) {
+            System.out.println("Both references point to the same DatabaseConnection instance.");
+        } else {
+            System.out.println("Different instances exist!");
         }
-        else {
-            // Print statement
-            System.out.println("Three objects DO NOT point to the same memory location on the heap");
-        }
-
-
     }
 }

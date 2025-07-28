@@ -1,13 +1,21 @@
-import FactoryPattern.Computer;
-import FactoryPattern.ComputerFactory;
-import FactoryPattern.ComputerType;
+import FactoryPattern.Notification;
+import FactoryPattern.NotificationFactory;
+import FactoryPattern.NotificationType;
+
 
 public class FactoryPatternTest {
     public static void main(String[] args) {
-        Computer laptop = ComputerFactory.getComputer(ComputerType.LAPTOP,"32 GB","500 GB","2.4 GHz", null);
-        Computer server = ComputerFactory.getComputer(ComputerType.SERVER,"512 GB","1 TB","14.5 GHz", "32 GB");
+        Notification emailNotification = NotificationFactory.createNotification(
+            NotificationType.EMAIL, "Hello, this is an email notification!");
 
-        System.out.println("Factory Laptop Config :: " + laptop);
-        System.out.println("Factory Server Config :: " + server);
+        Notification smsNotification = NotificationFactory.createNotification(
+            NotificationType.SMS, "Hello, this is an SMS notification!");
+
+        Notification pushNotification = NotificationFactory.createNotification(
+            NotificationType.PUSH, "Hello, this is a push notification!");
+
+        emailNotification.notifyUser();
+        smsNotification.notifyUser();
+        pushNotification.notifyUser();
     }
 }
