@@ -1,22 +1,13 @@
-import StatePattern.TVContext;
-import StatePattern.TVStartState;
-import StatePattern.TVState;
-import StatePattern.TVStopState;
+import StatePattern.DocumentContext;
 
 public class StatePatternTest {
-
     public static void main(String[] args) {
-        TVContext context = new TVContext();
-        TVState tvStartState = new TVStartState();
-        TVState tvStopState = new TVStopState();
+        DocumentContext document = new DocumentContext();
 
-        context.setState(tvStartState);
-        context.doAction();
-
-        System.out.println("------------");
-
-        context.setState(tvStopState);
-        context.doAction();
-
+        // Initial state: Draft
+        for (int i = 0; i < 5; i++) {
+            System.out.println("\nCurrent State: " + document.getState().getClass().getSimpleName());
+            document.process();
+        }
     }
 }
